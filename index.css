@@ -1,0 +1,248 @@
+
+/*This page create by Irvin Pineda 00024420*/
+
+/* estilo de letra de google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+    background-color: #F2E2CE;
+    font-family: 'Indie Flower', cursive;
+    color:#40281A;
+}
+/*flexbox general*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+/*navbar section*/
+
+.container h4 {
+    cursor:pointer;
+    align-self:center ;
+    color:#8C5E35;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left:50px ;
+    font-size: 28px;
+}
+a{
+    text-decoration: none ;
+}
+.container .logo{
+    width: 12% ;
+    }
+
+.container h4:hover{
+    transition: 0.5s;
+    margin-left:50px ;
+    color: #40281A;
+    background-color: rgb(255, 255, 255);
+    }
+
+.container div {
+    align-self:center ;
+    margin-top: 50px;
+    margin: 30px;
+    font-size: 28px;
+}
+
+.container div h1 {
+    margin: 0;
+    color: #40281A;
+    font-family: 'Satisfy', cursive;
+}
+
+.text1 {
+    color: #8C5E35;
+    margin-top: 0;
+    font-size: 25px;
+}
+.btn{
+    padding: 10px;
+    width: 160px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    align-self:center ;
+    border-radius: 10px;
+    background-color: #8C5E35;
+    margin: 0px !important;
+    
+}
+.btn:hover{
+    transition: 1s;
+    background-color: #D9A577;
+}
+/**************new section style**************/
+#new_section{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.colordiv {
+    margin-bottom: 50px;
+    background-color: #D9A577;
+    border-radius: 20px;
+    color:#40281A;
+    
+
+}
+
+.colordiv  p{
+    font-size: 20px;
+}
+
+.colordiv:hover{
+    transform: scale(1.1);
+    margin-bottom: 50px;
+    background-color: #F2E2CE;
+    border: solid 0.5px #D9A577;
+    border-radius: 20px;
+    box-shadow: 10px 16px #D9A577;
+    transition: 1s;
+
+}
+.colordiv:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+
+}
+/**************cards section**************/
+.section2{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.scroll{
+    background-color: rgb(231, 231, 231);
+    box-sizing: border-box;
+    border-radius: 30px;
+    overflow-x: scroll;
+    display: flex;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 0;
+    margin: 0;
+}
+
+p {
+    padding-top:20px ;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.card {
+	background-color: #F2E2CE;
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #40281A;
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
+    height: 200px;
+    padding: 1.5rem;
+    margin-right: 8px;
+    margin-left: 12px;
+	text-align: center;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+
+.card .icon {
+	border: 1px solid #40281A;
+	border-radius: 50%;
+	padding: 7px;
+    margin-top: -60px;
+    margin-left: 35%;
+}
+
+footer{
+    background-color: #D9A577;
+    margin: 0;
+}
+
+/*************responsive tablet**************/
+@media screen and (max-width: 1030px) {
+    .container{
+        display: block;
+        text-align: center;
+        
+    }
+    .container h4 , img{
+        cursor:pointer;
+        align-self:center ;
+        color: #8C5E35;
+        border-radius: 20px;
+        padding: 0px;
+        margin-left:0px ;
+    }
+    .container .logo{
+    width: 20% ;
+    }
+    .container h4:hover{
+        transition: 0.5s;
+        margin-left:0px ;
+        color: #40281A;
+        background-color: rgb(255, 255, 255);
+        }
+    
+    .btn{
+    display:inline-block;
+    padding: 10px;
+    width: 160px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    align-self:center ;
+    border-radius: 10px;
+    background-color: #40281A;
+    margin: 0px !important;
+    
+}
+
+/*new section*/
+#new_section{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.colordiv:hover{
+    transform: scale(1);
+    margin-bottom: 50px;
+    background-color: #F2E2CE;
+    border: solid 0.5px #D9A577;
+    border-radius: 20px;
+    box-shadow: 10px 16px #D9A577;
+    transition: 1s;
+
+}
+
+/*cards section*/
+
+.section2{
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+.card .icon {
+	border: 1px solid #40281A;
+	border-radius: 50%;
+	padding: 7px;
+    margin-top: -60px;
+    margin-left: 0%;
+}
+
+}
+
+
+
+/**************responsive smart phone**************/
+@media screen and (max-width: 560px) {
+    .container .logo{
+        width: 40% ;
+        }
+}
